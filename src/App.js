@@ -10,7 +10,7 @@ const App = () => {
       <header className="App-header">
         <Heading classValue ='heading' />
       </header>
-      <Counter initValue={0}/>
+      <Counter initValue={5}/>
     </div>
   );
 }

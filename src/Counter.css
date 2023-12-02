@@ -1,21 +1,22 @@
 .counter {
     width: 70%;
-    height: 40vh;
+    min-height: 50vh;
     margin: 40px auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
     color: black;
-    border: 1px solid darkviolet;
+    /* border: 1px solid darkviolet; */
+    background-color: #DAA520
     
 }
 
 .buttons button {
-    background-color:dodgerblue;
+    background-color:#282c34;
     color: white;
     border: none;
-    padding: 20px;
-    width: 80px;
+    width: 100px;
+    height: 80px;
     font-weight: 600;
     cursor: pointer;
     transition: 0.3s;
@@ -31,7 +32,21 @@
     font-size: 2em;
 }
 
-.stepperLabel {
-    color: darkviolet;
-    font-size: 1.5em;
+.stepControl {
+    margin: 20px 0;
+}
+#stepperLabel {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+    
+}
+
+#stepper {
+    padding: 5px;
+    width: 8%;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2em;
 }
